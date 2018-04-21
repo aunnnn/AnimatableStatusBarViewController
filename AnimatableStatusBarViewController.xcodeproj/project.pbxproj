@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		30C8CAD7208B39AF00674D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8CAD6208B39AF00674D9D /* AppDelegate.swift */; };
-		30C8CAD9208B39AF00674D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8CAD8208B39AF00674D9D /* ViewController.swift */; };
+		30C8CAD9208B39AF00674D9D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8CAD8208B39AF00674D9D /* FirstViewController.swift */; };
 		30C8CADC208B39AF00674D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C8CADA208B39AF00674D9D /* Main.storyboard */; };
 		30C8CADE208B39B000674D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C8CADD208B39B000674D9D /* Assets.xcassets */; };
 		30C8CAE1208B39B000674D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C8CADF208B39B000674D9D /* LaunchScreen.storyboard */; };
+		30C8CAE9208B39C000674D9D /* AnimatableStatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8CAE8208B39C000674D9D /* AnimatableStatusBarViewController.swift */; };
+		30C8CAEB208B3A8400674D9D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8CAEA208B3A8400674D9D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30C8CAD3208B39AF00674D9D /* AnimatableStatusBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatableStatusBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C8CAD6208B39AF00674D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30C8CAD8208B39AF00674D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30C8CAD8208B39AF00674D9D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		30C8CADB208B39AF00674D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30C8CADD208B39B000674D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C8CAE0208B39B000674D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C8CAE2208B39B000674D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C8CAE8208B39C000674D9D /* AnimatableStatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableStatusBarViewController.swift; sourceTree = "<group>"; };
+		30C8CAEA208B3A8400674D9D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				30C8CAD6208B39AF00674D9D /* AppDelegate.swift */,
-				30C8CAD8208B39AF00674D9D /* ViewController.swift */,
+				30C8CAE8208B39C000674D9D /* AnimatableStatusBarViewController.swift */,
+				30C8CAD8208B39AF00674D9D /* FirstViewController.swift */,
+				30C8CAEA208B3A8400674D9D /* SecondViewController.swift */,
 				30C8CADA208B39AF00674D9D /* Main.storyboard */,
 				30C8CADD208B39B000674D9D /* Assets.xcassets */,
 				30C8CADF208B39B000674D9D /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C8CAD9208B39AF00674D9D /* ViewController.swift in Sources */,
+				30C8CAEB208B3A8400674D9D /* SecondViewController.swift in Sources */,
+				30C8CAD9208B39AF00674D9D /* FirstViewController.swift in Sources */,
+				30C8CAE9208B39C000674D9D /* AnimatableStatusBarViewController.swift in Sources */,
 				30C8CAD7208B39AF00674D9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
