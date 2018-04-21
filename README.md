@@ -1,7 +1,7 @@
 # AnimatableStatusBarViewController
 A UIViewController base class to enable status bar animation
 
-
+![preview](https://raw.githubusercontent.com/aunnnn/AnimatableStatusBarViewController/master/previewgif.gif)
 
 ## Installation
 1. Copy `AnimatableStatusBarViewController.swift` to your project. 
